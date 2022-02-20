@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="OrangeHRM">
+
+	<listeners>
+		<listener class-name="com.OrangeHRM.utility.ExtentManager" />
+	</listeners>
+
+
+	<test name="OrangeHRM Test">
+		<classes>
+			<class name="com.OrangeHRM.testCases.A_OrangeHRM_Login_TC" />
+			<!--<class name="com.OrangeHRM.testCases.B_OrangeHRM_Admin_TC" />
+			<class name="com.OrangeHRM.testCases.C_OrangeHRM_AdminEditProfile_TC" />
+			<class name="com.OrangeHRM.testCases.D_OrangeHRM_PIM_TC" />
+			<class name="com.OrangeHRM.testCases.E_PIM_AddEmployee_TC" />
+			<class name="com.OrangeHRM.testCases.F_PIM_Report_TC" />
+			<class name="com.OrangeHRM.testCases.G_Leave_Entitlements_TC" />
+			<class name="com.OrangeHRM.testCases.H_Reports_TC" />
+			<class name="com.OrangeHRM.testCases.I_Leave_TC" />-->
+		</classes>
+
+	</test>
+
+</suite>
